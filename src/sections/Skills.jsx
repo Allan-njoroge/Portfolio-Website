@@ -15,9 +15,9 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { SiTailwindcss } from "react-icons/si";
 //backend icons
 import { FaNodeJs } from "react-icons/fa";
-import { SiDjango, SiMysql, SiMongodb } from "react-icons/si";
+import { SiDjango, SiMysql, SiMongodb, SiExpress, SiTypescript } from "react-icons/si";
+import { BiLogoPostgresql } from "react-icons/bi";
 // other icons
-import { FaGitAlt, FaWordpressSimple } from "react-icons/fa6";
 
 const Skills = () => {
   const content = [
@@ -28,6 +28,7 @@ const Skills = () => {
         { icon: <FaHtml5 className="text-4xl" />, skill: "HTML" },
         { icon: <FaCss3Alt className="text-4xl" />, skill: "CSS" },
         { icon: <IoLogoJavascript className="text-4xl" />, skill: "JavaScript" },
+        { icon: <SiTypescript className="text-4xl" />, skill: "TypeScript" },
         { icon: <FaReact className="text-4xl" />, skill: "ReactJS" },
         { icon: <SiTailwindcss className="text-4xl" />, skill: "TailwindCSS" },
       ],
@@ -36,10 +37,10 @@ const Skills = () => {
       category: "Backend",
       icon: <FaServer className="text-xl" />,
       skills: [
-        { icon: <FaNodeJs className="text-4xl" />, skill: "NodeJs" },
-        // { icon: < />, skill: "ExpressJs" },
+        { icon: <SiExpress className="text-4xl" />, skill: "ExpressJs" },
         { icon: <SiDjango className="text-4xl" />, skill: "Django" },
         { icon: <SiMysql className="text-4xl" />, skill: "MySQL" },
+        { icon: <BiLogoPostgresql className="text-4xl" />, skill: "PostgreSQL" },
         { icon: <SiMongodb className="text-4xl" />, skill: "MongoDB" },
       ],
     },
@@ -47,7 +48,6 @@ const Skills = () => {
       category: "Other",
       icon: <MdUnfoldMore className="text-2xl" />,
       skills: [
-        { icon: <FaGitAlt className="text-4xl"/>, skill: "Git" },
         { icon: <FaWordpressSimple className="text-4xl"/>, skill: "Wordpress" },
       ],
     },
