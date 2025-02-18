@@ -1,12 +1,14 @@
 import React from 'react'
 import { FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
 
 const Hero = () => {
   const socials = [
     { icon: < FaLinkedinIn className="text-3xl" />, link: "https://www.linkedin.com/in/allan-njoroge-0177b2270/" },
     { icon: <FaGithub className="text-3xl" />, link: "https://github.com/Allan-njoroge" },
-    { icon: <FaInstagram className="text-3xl" />, link: "https://instagram.com/justallan._" }
+    { icon: <FaInstagram className="text-3xl" />, link: "https://instagram.com/justallan._" },
+    { icon: <FaXTwitter className="text-3xl" />, link: "https://x.com/justallan__" }
   ]
   return (
     <div className="min-h-[100vh] w-[100%] flex justify-center items-center">
