@@ -14,7 +14,7 @@ const Hero = () => {
     <div className="min-h-[100vh] w-[100%] flex justify-center items-center">
       <div className="text-center grid gap-5">
         <h3 className="text-3xl" data-aos="fade-up">I'm Allan Njoroge</h3>
-        <h1 className="text-5xl md:text-6xl text-primary" data-aos="fade-up" data-aos-delay="300">A Software Developer</h1>
+        <h1 className="text-5xl md:text-6xl text-primary" data-aos="fade-up" data-aos-delay="300">A Software Engineer</h1>
         <p className="text-muted-foreground text-md md:text-lg md:w-[50%] mx-auto" data-aos="fade-up" data-aos-delay="500">
           I meticulastly craft pixel-perfect web applications that seasmlessly blend form and function, delivery and exceptional user experience
         </p>
