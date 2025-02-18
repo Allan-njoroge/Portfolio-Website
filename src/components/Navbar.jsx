@@ -52,7 +52,7 @@ const Navbar = () => {
           offset={-offset}
           duration={500}
         >
-            <FaCode className="text-4xl my-auto transition-transform duration-500 hover:rotate-360 text-primary" />
+            <FaCode className="text-4xl my-auto transition-transform duration-500 hover:rotate-360 text-primary cursor-pointer" />
         </ScrollLink>
         {/*===Nav Links===*/}
         <ul className={`grid md:flex gap-5 md:gap-10 bg-primary md:bg-transparent absolute md:static top-[10vh] left-0 w-[100%] md:w-auto p-10 md:p-0 transition-all ease-in-out duration-500 ${ menuOpen ? 'mt-0' : '-mt-[500px] md:mt-0' }`}>
@@ -66,7 +66,7 @@ const Navbar = () => {
                   offset={-offset}
                   duration={700}
                 >
-                    <li onClick={linkClicked} className="text-background md:text-primary">{item.name}</li>
+                    <li onClick={linkClicked} className="text-background md:text-primary cursor-pointer">{item.name}</li>
                 </ScrollLink>
             ))} 
             <ModeToggle onClick={() => setMenuOpen(false)} className="hidden md:flex" />
