@@ -18,7 +18,7 @@ const Footer = () => {
           </Link>
         ))}
         </ul>
-           <p className="mx-auto text-background">2024 &copy; Allan Njoroge. All Rights Reserved.</p>
+           <p className="mx-auto text-background">{new Date().getFullYear()} &copy; Allan Njoroge. All Rights Reserved.</p>
         </div>
     </div>
   )
