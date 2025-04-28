@@ -10,20 +10,19 @@ import { FaServer } from "react-icons/fa";
 import { PiBracketsCurlyBold } from "react-icons/pi";
 import { MdUnfoldMore } from "react-icons/md";
 // frontend icons
-import { FaHtml5, FaCss3Alt, FaReact } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaReact, FaWordpressSimple } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiTailwindcss } from "react-icons/si";
 //backend icons
 import { FaNodeJs } from "react-icons/fa";
 import { SiDjango, SiMysql, SiMongodb, SiExpress, SiTypescript } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
-// other icons
 
 const Skills = () => {
   const content = [
     {
       category: "Frontend",
-      icon: <PiBracketsCurlyBold classnName="text-2xl" />,
+      icon: <PiBracketsCurlyBold className="text-2xl" />,
       skills: [
         { icon: <FaHtml5 className="text-4xl" />, skill: "HTML" },
         { icon: <FaCss3Alt className="text-4xl" />, skill: "CSS" },
